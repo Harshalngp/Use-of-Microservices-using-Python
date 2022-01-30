@@ -25,7 +25,7 @@ $ mkvirtualenv (environment_name)
 ```
 To install the dependencies:
 ```console
-pip install -r requirements.txt
+$ pip install -r requirements.txt
 ```
 
 ### Usage
