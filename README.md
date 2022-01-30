@@ -9,10 +9,7 @@
 - [**Getting Started**](#getting-started)
 - [Built With](#built-with)
 - [Contributing](#contributing)
-- [License](#license)
 - [Get Help](#get-help)
-- [Motivation](#motivation)
-- [Acknowledgments](#acknowledgements)
 
 ## Getting Started
 
@@ -30,21 +27,17 @@ To install all the dependencies:
 ```
 Note the (env) in front of the prompt. This indicates that this terminal session operates in a virtual environment set up by virtualenv.
 
-### Usage
-Describe how you use it here.
-```javascript
-import { configure, useProject } from 'your-project';
-
-configure();
-
-const App = () => {
-  const [project, setProject] = useProject();
-  // ... More pseudo code here...
-}
+To run the application simply type
+```console
+(env)$ sudo docker-compose up
+(env)$ sudo docker-compose exec backend sh
+>> python manage.py makemigrations
+>> python manage.py migrate
 ```
+
 ## Built With
 
-Explain which technologies you've used here.
+To build this application used Django framework with postgresql & also use rabbitmq after that I dockerize this application.
 
 ## Contributing
 
@@ -54,18 +47,6 @@ In the case of a bug report, bugfix or a suggestions, please feel very free to o
 #### Pull request
 Pull requests are always welcome, and I'll do my best to do reviews as fast as I can.
 
-## License
-
-This project is licensed under the [MIT License](https://github.com/this/project/blob/master/LICENSE)
-
 ## Get Help
-- Contact me on my-email@email.com
+- Contact me on harshalhiwarkar01@gmail.com
 - If appropriate, [open an issue](https://github.com/this/project/issues) on GitHub
-
-## Motivation
-Describe your motivation for creating this Open-Source Project
-
-## Acknowledgements
-Acknowledge the Open-Source projects that you've included in your solution.
-
-See this template in use on the Open-Source project [Hue Debugger UI](https://github.com/Silind-Software/Hue-Debugger-UI)
