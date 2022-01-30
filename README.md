@@ -21,12 +21,14 @@ To create virtual evironment
 ```console
 $ sudo apt-get install python-pip
 $ sudo pip install virtualenvwrapper
-$ mkvirtualenv (environment_name)
+$ mkvirtualenv env
+$ workon env
 ```
 To install all the dependencies:
 ```console
-$ pip install -r requirements.txt
+(env)$ pip install -r requirements.txt
 ```
+Note the (env) in front of the prompt. This indicates that this terminal session operates in a virtual environment set up by virtualenv.
 
 ### Usage
 Describe how you use it here.
