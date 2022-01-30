@@ -23,7 +23,7 @@ $ sudo apt-get install python-pip
 $ sudo pip install virtualenvwrapper
 $ mkvirtualenv (environment_name)
 ```
-To install the dependencies:
+To install all the dependencies:
 ```console
 $ pip install -r requirements.txt
 ```
